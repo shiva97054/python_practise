@@ -1,0 +1,7 @@
+message "Meet me tomorrow at office meeting"
+print(message)
+
+message 2 = 'I will join by at my home'
+
+print(message 2)
+
