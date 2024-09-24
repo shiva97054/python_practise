@@ -1,0 +1,46 @@
+Interactive Help
+
+ mean: helping the user overcome a problem, helping the user understand a task, helping the user make a decision.
+ 
+dir() #short for "directory"
+dir(_builtins_)
+pow(2,10)
+
+*)Help on built in the function hex in module builtin :
+
+hex(number) ->string
+hex(10)
+
+*)We can list of objects in this call the directory function
+------------------------------------------
+IN CMD
+---------
+python3
+Python 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> Interactive Help
+  File "<stdin>", line 1
+    Interactive Help
+                ^^^^
+SyntaxError: invalid syntax
+>>> dir() #short for "directory"
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__']
+>>> dir('_builtins_')
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> pow(1,10)
+1
+>>> pow(2,20)
+1048576
+>>> hex(number)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'number' is not defined
+>>> hex(10)
+'0xa'
+>>> 
+exit()
+
+
+
+
+
