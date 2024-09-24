@@ -1,0 +1,51 @@
+Arithemetic operations in python3 version
+
+#Numbers: int, float, complex
+#Operations: + - * /
+x=20 #int
+y=20.0 #float
+print(type(x))
+print(type(y))
+--------------------------------------
+
+
+#Numbers: int, float, complex
+#Operations: + - * /
+a=2 #int
+b=6.0 #float
+c=12+0j #complex
+
+#Rule: widen numbers so theyare the same type 
+
+#Addition
+a+b #int+float
+print(type(a+b))
+
+print(a+b)
+
+#subtraction
+b-a #float -int
+print(type(a-b))
+print(b-a)
+
+#multiplication
+a*b  #int*float
+print(type(a*b))
+print(a*b)
+
+#Division
+b/a #complex*float
+print(type(b/a))
+print(b/a)
+----
+ouptput results:
+<class 'float'>
+8.0
+<class 'float'>
+4.0
+<class 'float'>
+12.0
+<class 'float'>
+3.0
+
+=== Code Execution Successful ===
