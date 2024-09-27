@@ -1,0 +1,8 @@
+#collect string / test length
+s= input("please enter a test string :")
+if len(s) < 6:
+    print("your string is too short.")
+    print ("please enter a string with at least 6 characters.")
+else:
+    print("your string is  long enough.")
+
