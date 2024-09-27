@@ -1,0 +1,19 @@
+# scalene triangle : All sides have different lengths
+#Isosceles triangle : Two sides have the same length
+#Equilateral triangle : all sides are equal
+a =int(input("The length of the first side is : "))
+b =int(input("The length of the second side is : "))
+c =int(input ("The length of the third side is :"))
+
+if a != b and b != c and a != c:
+    print("This is a scalene  triangle")
+elif a==b and b==c:
+    print("This is an equilateral triangle")
+else:
+    print("This is an isosceles triangle")
+
+
+
+    (side a = 3,b=5, c=5 :   scalene triangle)
+    (side a =5, b=5,c= 7 :   isosceles triangle)
+    (side a=8, b=8,c=8 :   equilateral triangle)
