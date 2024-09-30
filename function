@@ -1,0 +1,21 @@
+*) functions enable you to reuse logic an infinite  number of times without repeating yourself.
+
+*) function is a block of a code
+
+{
+----
+----
+---}
+It is used by reuseability
+
+functions are in python are flexible conttraptions . required arguments .
+if a function does not required an input you will not get an argument.
+
+
+#def ping():
+ #   return "ping!"
+#ping()
+#"ping!"
+#x=ping()
+#print(x)
+
