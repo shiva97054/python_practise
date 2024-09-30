@@ -19,3 +19,6 @@ if a function does not required an input you will not get an argument.
 #x=ping()
 #print(x)
 
+
+
+"function with in the function is called nested function"
