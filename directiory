@@ -1,0 +1,30 @@
+In Python, a dictionary is a mutable data structure that stores key-value pairs.
+
+
+Dictionaries are written with curly braces, and each key-value pair is separated by a colon. For example, thisdict = { "brand": "Ford", "model": "Mustang", "year": 1964 }
+
+
+
+
+
+#Friend face post
+from future.backports.datetime import datetime
+from google.protobuf.internal.test_bad_identifiers_pb2 import message
+from xdg.Config import language
+
+user_id = 208
+message = "D5 E5 C5 C4 G4"
+
+language = "english"
+
+datetime = 20240917T12412312
+
+location = (44, 590533, -109.71558)
+
+print(user_id)
+---
+print(language)
+---------
+
+
+
