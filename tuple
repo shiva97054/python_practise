@@ -1,0 +1,45 @@
+TUPLES
+
+
+Not every data stored in file. sometimes data must be ordered in "sequence " to be useful.
+
+
+*) List are most comman tool, but there is a smaller, faster alternative : The tuple 
+
+
+
+Difference b/w list & tuples :
+
+list : 1) Add data ,2) Remove data, 3) change data. 
+
+Tuples : !) can't change the data , 2) "Immutable" 3) Made quickly
+
+
+Note : Less memory can be capable as compare to list.
+
+
+
+
+
+# List example
+
+prime _number = [2, 3, 5, 7, 11, 13 , 17]
+
+# Tuple example
+perfect_squares = (1, 4, 9, 16, 25, 36)
+
+# Display lengths
+
+print("#  primes = ", len(prime_numbers))
+print(", len(perfect_squares"))
+
+
+
+o/p : #primes =7
+      #sequences =6
+
+
+
+
+
+
