@@ -1,0 +1,38 @@
+The logging module in python everything you need to report the process and problems in your code 
+
+purpose : record pogress and problems ...
+
+Levels :  not set , Debug, Info, warning, Error, critical 
+                               
+                                                          
+    (may be the numeric values are (0,  10,  20,  30,  40,  50 ))
+
+--------------------------------------------------------
+In the terminal python ----- (python3)  then 
+
+import logging 
+
+dir(logging) 
+
+
+
+
+
+
+   
+
+import logging
+
+
+# create and configure logger
+logging.basicconfig(filename = "E:\\python\\Lumberjack.Log")
+
+logger = logging.get Logger()
+
+# Test the logger
+logger.info (" our first message.")
+
+print(logger.level)
+
+
+
