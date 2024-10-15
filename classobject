@@ -1,0 +1,38 @@
+Python Class & Object :
+
+Suppose we are posting an photo in social network is togather much personal information as possible about our users.
+
+*) class = " It is an blueprint"
+
+
+class User:      #User always captial "U" starting letter
+pass
+user1 = User()
+user1.first_name = "shiva"
+user1.last_name = "gaddam"
+print(user1.first_name)
+print(user1.last_name)
+
+
+
+*) Class features :
+
+---> Methods
+---> Initilization
+---> Help text  
+
+in it method
+ in it = intilization / construction
+ 
+ 
+ 
+ 
+ 
+class User:
+    def __init__(self, full_name, birthday):
+        self.full_name = full_name
+        self.birthday = birthday    #YYYYmmdd
+user = User (" Happy birthday" "shankar pathi", "20241015")
+print(user.full_name)
+print(user.birthday)
+
