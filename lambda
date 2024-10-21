@@ -1,0 +1,36 @@
+Anonymous function = Lambda Expression
+  
+  To create a lambda expression, you type the keyword lambda, follwed by your inputs. 
+  
+  
+  
+  
+  *)  Lambada expressions with multiple inputs 
+  
+  -----------------------------
+  ex: like social media Registration 
+  
+  First name : []
+  last name : []
+  
+  -----------------------------
+  
+  lambda arguments: expression
+
+Basic Example: A lambda function that adds two numbers.
+
+
+add = lambda x, y: x + y
+print(add(3, 5))  # Output: 8
+
+
+Filter type:
+map type :
+sorted  type : 
+
+  
+  
+  --------------------------------
+  *) Quadratic Functions
+  
+    f(x) = a X2 + b X + c 
